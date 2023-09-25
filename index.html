@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+
+
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="result">
+        <h1>Your Result</h1>
+          <div class="circleNote">
+            <div class="note">76</div>
+            <div class="of100">of 100</div>
+          </div>
+            <h2>Great</h2>
+              <p class="jugement">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary">
+        <h1>Summary</h1>
+          <section class="allSections">
+            <section class="line reaction">
+                <img src="./assets/images/icon-reaction.svg" alt="reaction symbol">
+                <span class="nameReaction">Reaction</span>
+                <span class="score-container">
+                    <span class="sectionNote"><strong>80</strong></span> 
+                   <span class="pourcent">/ 100</span>
+                </span> 
+                
+            </section>
+          
+            <section class="line memory">
+                <img src="./assets/images/icon-memory.svg" alt="memory symbol">
+                <span class="nameMemory">Memory</span>
+                <span class="score-container">
+                    <span class="sectionNote"><strong>92</strong></span> 
+                    <span class="pourcent">/ 100</span>
+                </span>
+            </section>
+            
+            <section class="line verbal">
+                <img src="./assets/images/icon-verbal.svg" alt="verbal symbol">
+                <span class="nameVerbal">Verbal</span>
+                <span class="score-container">
+                    <span class="sectionNote"><strong>61</strong></span> 
+                    <span class="pourcent">/ 100</span>
+                </span>
+            </section>
+            
+            <section class="line visual">
+                <img src="./assets/images/icon-visual.svg" alt="visual symbol">
+                <span class="nameVisual">Visual</span>
+                <span class="score-container">
+                    <span class="sectionNote"><strong>72</strong></span> 
+                    <span class="pourcent">/ 100</span>
+                </span>
+            </section>
+          </section>
+
+            <button> Continue </button>
+
+    </section>
+
+  </main>
+  
+  
+  
+  <div class="attribution">
+    Coded by <a href="https://www.linkedin.com/in/alexis-bourget-dev/">Alexis Bourget</a>
+  </div>
+</body>
+</html>
